@@ -515,7 +515,9 @@
             border-radius: 20px;
             overflow: hidden;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-            height: 320px;
+            aspect-ratio: 1 / 1;
+            max-width: 400px;
+            margin: 0 auto;
             background: linear-gradient(135deg, #2c3e50, #1a2a3a);
             display: flex;
             align-items: center;
@@ -1081,7 +1083,7 @@
             }
             
             .about-img {
-                height: 350px;
+                max-width: 350px;
             }
             /* Maintain a compact height even on very small screens */
             .project-img {
@@ -1291,7 +1293,7 @@
                 </div>
                 
                 <div class="about-img">
-                    <img src="DIVISHA-PIC.jpg" alt="About Image" style="width: 100%; height: 700px; object-fit: cover; object-position: center; border-radius: 20px;">
+                    <img src="DIVISHA-PIC.jpg" alt="About Image" style="width: 100%; height: 100%; object-fit: cover; object-position: center; border-radius: 20px;">
                 </div>
             </div>
         </div>
@@ -1313,9 +1315,8 @@
                     <div class="skills-list">
                         <div class="skill-tag">C</div>
                         <div class="skill-tag">Java</div>
-                        <div class="skill-tag">Python</div>
                         <div class="skill-tag">JavaScript</div>
-                        <div class="skill-tag">PHP</div>
+                       
                     </div>
                 </div>
                 
@@ -1325,7 +1326,6 @@
                         <div class="skill-tag">HTML5</div>
                         <div class="skill-tag">CSS3</div>
                         <div class="skill-tag">React</div>
-                        <div class="skill-tag">Angular</div>
                     </div>
                 </div>
                 
@@ -1390,6 +1390,11 @@
                             <div class="project-tag">NoSQL</div>
                             <div class="project-tag">Database</div>
                         </div>
+                        <div class="project-github">
+                            <a href="23ITR041-MONGODB.pdf" target="_blank" class="btn-github" style="width: auto; padding: 10px 20px;">
+                                <i class="fas fa-certificate"></i> View Certificate
+                            </a>
+                        </div>
                     </div>
                 </div>
                 
@@ -1404,6 +1409,11 @@
                             <div class="project-tag">Oracle APEX</div>
                             <div class="project-tag">Cloud Development</div>
                             <div class="project-tag">Low-Code</div>
+                        </div>
+                        <div class="project-github">
+                            <a href="23ITR041-oracle.pdf" target="_blank" class="btn-github" style="width: auto; padding: 10px 20px;">
+                                <i class="fas fa-certificate"></i> View Certificate
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -1505,7 +1515,7 @@
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <h3>KONGU ENGINEERING COLLEGE</h3>
-                        <h4>B.Tech - IT (2023-27) | 8.54 (CGPA)</h4>
+                        <h4>B.Tech - IT (2023-27) | 8.63 (CGPA)</h4>
                         <p>Currently pursuing Bachelor of Technology in Information Technology with excellent academic performance.</p>
                     </div>
                 </div>
@@ -1614,7 +1624,7 @@
                     </p>
                  
                 </div>
-                <a href="23ITR041_DIVISHA.pdf" download class="btn btn-primary" style="font-size: 1.2rem; padding: 16px 40px;">
+                <a href="DIVISHA_RESUME.pdf" download class="btn btn-primary" style="font-size: 1.2rem; padding: 16px 40px;">
                     <i class="fas fa-download" style="margin-right: 10px;"></i> Download Resume
                 </a>
             </div>
@@ -1703,9 +1713,6 @@
         <div class="container">
             <div class="footer-content">
                 <p>I hereby declare that all the above information is true to the best of my knowledge</p>
-                <div class="copyright">
-                    &copy; 2023 Divisha M. All Rights Reserved.
-                </div>
             </div>
         </div>
     </footer>
